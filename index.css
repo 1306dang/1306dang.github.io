@@ -1,0 +1,179 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: rgb(255,255,255);
+    margin: 0;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+input {
+    all :unset;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(220, 220, 220, 0.674);
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 110%;
+}
+
+.left-container {
+    width: 430px;
+    height: 700px;
+    background-image: url(./img/homeimg.png);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.phone-img1 {
+    position: relative;
+    top: 28px;
+    left: 155px;
+    
+}
+
+.right-container {
+    margin-top: -80px;
+}
+
+.right-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(220, 220, 220);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 40px;
+    margin: 20px;
+    
+}
+
+.login {
+    background-color: rgb(76,181,249);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.insta-logo {
+    padding: 0px 70px 30px 70px;
+}
+
+.spread {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.spread-line {
+    background-color: rgb(219,219,219);
+    height: 1px;
+    width: 140px;
+}
+
+.spread-text {
+    font-weight: 400;
+    color: gray;
+    padding: 0px 20px 0px 20px;
+}
+
+.logo-fb {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png); 
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+    border: 0;
+    display: inline-block;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    margin-right: 8px;
+    padding: 0;
+    position: relative;
+    top: 2.5px;
+    vertical-align: baseline;
+    transform: scale(1.2);
+}
+
+.login-method {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(56,81,133);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login-text {
+    background-color: rgb(0,149,246);
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.login-text:hover {
+    background-color: rgb(24,119,242);
+    cursor: pointer;
+}
+
+.forgot-pass {
+    text-align: center;
+    color: rgb(56,81,133);
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.right-bottom {
+    background-color: #fff;
+    border: 1px solid rgb(219,219,219);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.download-app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* --------------------Footer------------------- */
+.footer {
+    height: 10%;
+    margin-top: -80px;
+}
+.footer-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-item span {
+    color: rgb(188,188,188);
+    padding: 10px;
+}
